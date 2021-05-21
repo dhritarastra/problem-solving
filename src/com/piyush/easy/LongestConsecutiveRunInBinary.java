@@ -3,6 +3,11 @@ package com.piyush.easy;
 /**
  * @author Piyush
  *
+ *Given an integer n, return the length of the longest consecutive 
+ *run of 1s in its binary representation.
+ *
+ *For example, given 156, you should return 3.
+ *
  */
 public class LongestConsecutiveRunInBinary 
 {
@@ -22,7 +27,7 @@ public class LongestConsecutiveRunInBinary
 	//	Driver code
 	public static void main(String[] args)
 	{
-		int result = findLongestConsecutive1s(63);
+		int result = findLongestConsecutive1s(901);
 		System.out.println(result);
 	}
 }

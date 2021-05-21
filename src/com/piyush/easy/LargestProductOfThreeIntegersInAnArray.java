@@ -2,11 +2,17 @@ package com.piyush.easy;
 
 /**
  * @author Piyush
+ * 
+ * Given a list of integers, return the largest product that can be made by multiplying 
+ * any three integers.
+ * 
+ * For example, if the list is [-10, -10, 5, 2], we should return 500, since 
+ * that's -10 * -10 * 5.
  *
  */
 public class LargestProductOfThreeIntegersInAnArray 
 {
-	public static int findLargestSumOfThreeInts(int[] nums) 
+	public static int findLargestProduct(int[] nums) 
 	{
 		int result = 0;
 		int min_1 = Integer.MAX_VALUE, min_2 = Integer.MIN_VALUE;
@@ -50,7 +56,7 @@ public class LargestProductOfThreeIntegersInAnArray
 	public static void main(String[] args) 
 	{
 		int[] nums = {1, 3, -11, -9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 4, 8};
-		int largestProduct = findLargestSumOfThreeInts(nums);
+		int largestProduct = findLargestProduct(nums);
 		System.out.println(largestProduct);
 	}
 }
