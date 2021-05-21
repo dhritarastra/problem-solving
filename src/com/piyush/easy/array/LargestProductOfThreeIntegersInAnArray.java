@@ -1,4 +1,4 @@
-package com.piyush.easy;
+package com.piyush.easy.array;
 
 /**
  * @author Piyush
