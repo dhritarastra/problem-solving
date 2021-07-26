@@ -65,6 +65,8 @@ public class BinaryTreeDeepestNode
         root.right.left.right = new Node(7);
         root.right.right.right = new Node(8);
         root.right.left.right.right = new Node(9);
+        root.right.left.right.right.left = new Node(10);
+        root.right.left.right.right.left.right = new Node(11);
         System.out.println(findDeepestNode(root, 0));
 	}
 }
